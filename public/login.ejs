@@ -1,0 +1,472 @@
+<!-- style.css  rgb(128, 28, 185) -->
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- <style>
+	.dnjswjd:hover{color:#800080 !important}
+	</style> -->
+
+	<!-- Document Title
+	============================================= -->
+	<title>Miro | The Multi-Purpose HTML5 Template</title>
+
+	<!-- Date & Time Picker CSS -->
+	<link rel="stylesheet" href="demos/travel/css/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="css/components/timepicker.css" type="text/css" />
+	<link rel="stylesheet" href="css/components/daterangepicker.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<style>
+			.timepicker{
+				display: none !important;
+			}
+			</style>
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+					
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="/#" class="standard-logo" data-dark-logo="images/miro_logo.png"><img src="images/miro_logo.png" alt="miro Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="dark">
+
+						<ul>
+							<li class="current"><a href="/"><div>Home</div></a>
+								
+							</li>
+							<li class="mega-menu"><a href="#"><div>Notification</div></a>
+								
+							</li>
+							<li class="mega-menu"><a href="#"><div>Plan</div></a>
+							
+							</li>
+							<li class="mega-menu"><a href="#"><div>Health</div></a>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Code</div></a>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Free</div></a>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Gallery</div></a>
+							</li>
+						</ul>
+
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+							</form>
+						</div><!-- #top-search end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		
+
+		<!-- Content
+		============================================= -->
+        <section id="content">
+
+                <div class="content-wrap">
+    
+                    <div class="container clearfix">
+    
+                        <div class="tabs divcenter nobottommargin clearfix" id="tab-login-register" style="max-width: 500px;">
+    
+                            <ul class="tab-nav tab-nav2 center clearfix">
+                                <li class="inline-block"><a href="#tab-login">Login</a></li>
+                                <li class="inline-block"><a href="#tab-register">Register</a></li>
+                            </ul>
+    
+                            <div class="tab-container">
+    
+                                <div class="tab-content clearfix" id="tab-login">
+                                    <div class="panel panel-default nobottommargin">
+                                        <div class="panel-body" style="padding: 40px;">
+                                            <form id="login-form" class="nobottommargin" action="/login" method="post">
+    
+                                                <h3>Login to your Account</h3>
+    
+                                                <div class="col_full">
+                                                    <label for="login-form-id">ID:</label>
+                                                    <input type="text" id="login-form-id" name="id" value="" class="form-control" />
+                                                </div>
+    
+                                                <div class="col_full">
+                                                    <label for="login-form-password">Password:</label>
+                                                    <input type="password" id="login-form-password" name="password" value="" class="form-control" />
+                                                </div>
+                                            </form>
+                                                <div class="col_full nobottommargin">
+                                                    <a href="#" onClick="document.getElementById('login-form').submit()"><button class="button button-3d button-black nomargin">Login</button></a> 
+                                                    <a href="#" class="fright">Forgot Password?</a>
+                                                </div>
+    
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-content clearfix" id="tab-register">
+                                    <div class="panel panel-default nobottommargin">
+                                        <div class="panel-body" style="padding: 40px;">
+                                            <h3>Register for an Account</h3>
+    
+                                            <form id="register-form" name="register-form" class="nobottommargin" action="/signUp" method="post">
+    
+                                                <div class="col_full">
+                                                    <label for="register-form-name">Name:</label>
+                                                    <input type="text" id="register-form-name" name="name" value="" class="form-control" />
+                                                </div>
+
+                                                <div class="col_full">
+                                                        <label for="register-form-id">ID:</label>
+                                                        <input type="text" id="register-form-id" name="id" value="" class="form-control" />
+                                                    </div>
+    
+                                                <div class="col_full">
+                                                    <label for="register-form-email">Email Address:</label>
+                                                    <input type="text" id="register-form-email" name="email" value="" class="form-control" />
+                                                </div>                                              
+    
+                                                <div class="col_full">
+                                                    <label for="register-form-phone">Phone:</label>
+                                                    <input type="text" id="register-form-phone" name="phone" value="" class="form-control" />
+                                                </div>
+    
+                                                <div class="col_full">
+                                                    <label for="register-form-password">Password:</label>
+                                                    <input type="password" id="register-form-password" name="password" value="" class="form-control" />
+                                                </div>
+    
+    
+                                                <div class="col_full nobottommargin">
+                                                    <button class="button button-3d button-black nomargin" id="register-form-submit" name="submit" value="register">Register Now</button>
+                                                </div>
+    
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </section>
+        
+
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+
+						<div class="col_one_third">
+
+							<div class="widget clearfix">
+
+								<img src="images/logo_miro.png" alt="" class="footer-logo">
+				
+								
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third col_last">
+
+							<div class="widget clearfix">
+								
+							</div>
+
+						</div>
+
+
+						<div class="col_one_third col_last">
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+									<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+										<address>
+											<strong>Headquarters:</strong><br>
+											대구광역시 북구 대학로 80 경북대학교<br>
+											IT2호관 전자공학부 NT로봇플라자<br>
+										</address>
+										<abbr title="Phone Number"><strong>Phone:</strong></abbr> (82) 053 123 4567<br>
+										<abbr title="Fax"><strong>Fax:</strong></abbr> (82) 010 1234 5678<br>
+										<abbr title="Email Address"><strong>Email:</strong></abbr> miro@knu.ac.kr
+									</div>
+
+							</div>
+
+						</div>
+
+						
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+					</div>
+
+					<div class="col_half col_last tright">
+
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> miro@knu.ac.kr <span class="middot">&middot;</span> <i class="icon-headphones"></i> +82-010-1234-5678 <span class="middot">&middot;</span> <i class="icon-skype2"></i> Miro2018
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+
+	<!-- Date & Time Picker JS -->
+	<script type="text/javascript" src="js/components/moment.js"></script>
+	<script type="text/javascript" src="demos/travel/js/datepicker.js"></script>
+	<script type="text/javascript" src="js/components/timepicker.js"></script>
+
+	<!-- Include Date Range Picker -->
+	<script type="text/javascript" src="js/components/daterangepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.travel-date-group .default').datepicker({
+				autoclose: true,
+				startDate: "today",
+			});
+
+			$('.travel-date-group .today').datepicker({
+				autoclose: true,
+				startDate: "today",
+				todayHighlight: true
+			});
+
+			$('.travel-date-group .past-enabled').datepicker({
+				autoclose: true,
+			});
+			$('.travel-date-group .format').datepicker({
+				autoclose: true,
+				format: "dd-mm-yyyy",
+			});
+
+			$('.travel-date-group .autoclose').datepicker();
+
+			$('.travel-date-group .disabled-week').datepicker({
+				autoclose: true,
+				daysOfWeekDisabled: "0"
+			});
+
+			$('.travel-date-group .highlighted-week').datepicker({
+				autoclose: true,
+				daysOfWeekHighlighted: "0"
+			});
+
+			$('.travel-date-group .mnth').datepicker({
+				autoclose: true,
+				minViewMode: 1,
+				format: "mm/yy"
+			});
+
+			$('.travel-date-group .multidate').datepicker({
+				multidate: true,
+				multidateSeparator: " , "
+			});
+
+			$('.travel-date-group .input-daterange').datepicker({
+				autoclose: true
+			});
+
+			$('.travel-date-group .inline-calendar').datepicker();
+
+			$('.datetimepicker').datetimepicker({
+				showClose: true
+			});
+
+			$('.datetimepicker1').datetimepicker({
+				format: 'LT',
+				showClose: true
+			});
+
+			$('.datetimepicker2').datetimepicker({
+				inline: true,
+				sideBySide: true
+			});
+
+		});
+
+		$(function() {
+			// .daterange1
+			$(".daterange1").daterangepicker({
+				"buttonClasses": "button button-rounded button-mini nomargin",
+				"applyClass": "button-color",
+				"cancelClass": "button-light"
+			});
+
+			// .daterange2
+			$(".daterange2").daterangepicker({
+				"opens": "center",
+				timePicker: true,
+				timePickerIncrement: 30,
+				locale: {
+					format: 'MM/DD/YYYY h:mm A'
+				},
+				"buttonClasses": "button button-rounded button-mini nomargin",
+				"applyClass": "button-color",
+				"cancelClass": "button-light"
+			});
+
+			// .daterange3
+			$(".daterange3").daterangepicker({
+				singleDatePicker: true,
+				showDropdowns: true
+			},
+			function(start, end, label) {
+				var years = moment().diff(start, 'years');
+				alert("You are " + years + " years old.");
+			});
+
+			// reportrange
+			function cb(start, end) {
+				$(".reportrange span").html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+			}
+			cb(moment().subtract(29, 'days'), moment());
+
+			$(".reportrange").daterangepicker({
+				"buttonClasses": "button button-rounded button-mini nomargin",
+				"applyClass": "button-color",
+				"cancelClass": "button-light",
+				ranges: {
+				   'Today': [moment(), moment()],
+				   'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+				   'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+				   'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+				   'This Month': [moment().startOf('month'), moment().endOf('month')],
+				   'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+				}
+			}, cb);
+
+			// .daterange4
+			$(".daterange4").daterangepicker({
+				autoUpdateInput: false,
+				locale: {
+					cancelLabel: 'Clear'
+				},
+				"buttonClasses": "button button-rounded button-mini nomargin",
+				"applyClass": "button-color",
+				"cancelClass": "button-light"
+			});
+
+			$(".daterange4").on('apply.daterangepicker', function(ev, picker) {
+				$(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+			});
+
+			$(".daterange4").on('cancel.daterangepicker', function(ev, picker) {
+				$(this).val('');
+			});
+
+		});
+
+	</script>
+</body>
+</html>
